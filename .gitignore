@@ -1,0 +1,16 @@
+# Abaikan file credential & secrets
+firebase-adminsdk*.json
+.streamlit/secrets.toml
+
+# Abaikan cache Python
+__pycache__/
+*.pyc
+
+# Abaikan file environment Conda (jika ada)
+env/
+.venv/
+absensi-streamlit/
+
+# Abaikan file/setting IDE
+.vscode/
+.idea/
